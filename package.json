@@ -1,0 +1,26 @@
+{
+  "name": "listdata_assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 10000",
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "chai": "^4.3.7",
+    "chai-http": "^4.3.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "log4js": "^6.7.1",
+    "nodemon": "^2.0.20",
+    "pg": "^8.8.0"
+  },
+  "devDependencies": {
+    "mocha": "^10.2.0"
+  }
+}
