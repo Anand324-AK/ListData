@@ -16,11 +16,13 @@ async function queryDatabase() {
       .connect()
       .then(() => {
         console.log("DB connected");
+        pool.release();
       })
       .catch((err) => {
         console.log(err);
       });
   } catch (err) {
+    
     console.log("Error1", err.stack);
   }
 }
