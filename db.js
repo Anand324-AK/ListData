@@ -1,13 +1,13 @@
 // import { Pool } from "pg";
 const { Pool } = require("pg");
 
-const pool = new Pool({  
+const pool = new Pool({
   host: "mel.db.elephantsql.com",
   port: 5432,
   user: "zlrandcy",
   password: "xg1MQ2FPBYIoHdlOeMg3mXT_aWls-x8D",
   database: "zlrandcy",
-  ssl: false,  
+  ssl: false,
 });
 
 async function queryDatabase() {
@@ -39,7 +39,6 @@ module.exports.ExecuteQuery = async (conn, queryString) => {
   return new Promise((resolve, reject) => {
     conn.query(queryString, (err, data) => {
       err ? reject(err) : resolve(data.rows);
-      console.log(data.rows);
     });
   });
 };

@@ -14,3 +14,28 @@
 [2023-01-04T18:16:00.912] [INFO] default - file: listDataDetailController.js , statuscode : 200
 [2023-01-05T08:57:28.482] [FATAL] default - file: ListDataMasterController.js,error: Error: connect ETIMEDOUT 34.249.47.172:5432 -2
 [2023-01-05T08:59:39.979] [FATAL] default - file: ListDataMasterController.js,error: Error: connect ETIMEDOUT 34.249.47.172:5432 -2
+[2023-01-05T09:50:33.115] [FATAL] default - file: ListDataMasterController.js,error: Error: connect ETIMEDOUT 34.249.47.172:5432 -2
+[2023-01-05T09:51:39.563] [FATAL] default - file: ListDataMasterController.js,error: Error: connect ETIMEDOUT 34.249.47.172:5432 -2
+[2023-01-06T12:14:01.590] [INFO] default - file: ListDataMasterController.js , statuscode : 200
+[2023-01-06T12:14:42.344] [INFO] default - file: listDataDetailController.js , statuscode : 200
+[2023-01-06T13:42:05.623] [INFO] default - file: listDataDetailController.js , statuscode : 200
+[2023-01-06T13:43:29.296] [INFO] default - file: listDataDetailController.js , statuscode : 200
+[2023-01-06T13:44:49.997] [INFO] default - file: ListDataMasterController.js , statuscode : 200
+[2023-01-06T13:44:59.703] [INFO] default - file: ListDataMasterController.js , statuscode : 200
+[2023-01-06T13:45:17.150] [INFO] default - file: ListDataMasterController.js , statuscode : 200
+[2023-01-06T13:46:22.924] [INFO] default - file: ListDataMasterController.js , statuscode : 200
+[2023-01-06T13:47:31.307] [INFO] default - file: ListDataMasterController.js , statuscode : 200
+[2023-01-06T13:48:13.080] [INFO] default - file: ListDataMasterController.js , statuscode : 200
+[2023-01-06T13:49:01.146] [INFO] default - file: ListDataMasterController.js , statuscode : 200
+[2023-01-06T13:51:30.114] [INFO] default - file: ListDataMasterController.js , statuscode : 200
+[2023-01-06T13:52:45.065] [INFO] default - file: ListDataMasterController.js , statuscode : 200
+[2023-01-06T13:52:53.698] [INFO] default - file: ListDataMasterController.js , statuscode : 200
+[2023-01-06T16:30:09.426] [INFO] default - file: listDataDetailController.js , statuscode : 200
+[2023-01-06T16:33:00.405] [INFO] default - file: ListDataMasterController.js , statuscode : 200
+[2023-01-06T16:34:22.461] [INFO] default - file: listDataDetailController.js , statuscode : 200
+[2023-01-06T17:08:06.805] [INFO] default - file: listDataDetailController.js , statuscode : 200
+[2023-01-09T09:06:51.502] [INFO] default - file: listDataDetailController.js , statuscode : 200
+[2023-01-09T09:08:01.365] [INFO] default - file: listDataDetailController.js , statuscode : 200
+[2023-01-09T09:08:10.375] [INFO] default - file: listDataDetailController.js , statuscode : 200
+[2023-01-09T09:09:08.311] [INFO] default - file: ListDataMasterController.js , statuscode : 200
+[2023-01-09T09:09:38.716] [INFO] default - file: ListDataMasterController.js , statuscode : 200

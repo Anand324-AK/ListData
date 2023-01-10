@@ -36,7 +36,7 @@ const ListDataValues = (req, res, next) => {
         .catch((err) => {
           logger.fatal(`file: ${fname},error: ${err} -2`);
           res.status(500).json({ err });
-          dbConnection.release();
+          // dbConnection.release();
         });
     }
     getListData();
@@ -204,7 +204,7 @@ const deleteMasterData = (req, res, next) => {
               dbConnection,
               `DELETE FROM listdatadetail WHERE listdatadetail.listmstid = ${masterId}`
             ).then(async (listdatamaster) => {
-              if (listdatamaster.length != 0) {
+              if (listdatamaster.length == 0) {
                 var status = {
                   Message: "The entered masterID is not present",
                 };
