@@ -14,15 +14,14 @@ async function queryDatabase() {
   try {
     pool
       .connect()
-      .then(() => {
+      .then((conn) => {
         console.log("DB connected");
-        pool.release();
+        conn.release();
       })
       .catch((err) => {
         console.log(err);
       });
   } catch (err) {
-    
     console.log("Error1", err.stack);
   }
 }
